@@ -28,7 +28,7 @@ export default function Home() {
         setCurrentImage(imageSources[index]);
         setFade(false); // Start fade in
       }, 500); // Match this duration with the CSS transition duration
-    }, 10000); // Change image every 10 seconds
+    }, 5000); // Change image every 5 seconds
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
