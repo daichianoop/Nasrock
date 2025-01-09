@@ -16,8 +16,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-      <html lang="en">
-      <body className={`${bebasNeue.variable} antialiased overflow-scroll scroll-smooth bg-[url('/assets/nebula.gif')] bg-fixed bg-cover bg-no-repeat h-screen w-screen`}>
+      <html lang="en" className={"bg-black"}>
+      <body className={`${bebasNeue.variable} antialiased overflow-scroll bg-black scroll-smooth bg-[url('/assets/nebula.gif')] bg-fixed bg-cover bg-no-repeat h-screen w-screen`}>
       <Navbar />
 
       {children}
