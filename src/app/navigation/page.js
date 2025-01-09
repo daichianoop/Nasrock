@@ -46,18 +46,7 @@ const Page = () => {
                 <span className="p-2 text-center uppercase font-bold title-text-multi">Archive Search</span>
               </div>
             </Link>
-            <Link href={"/sources/mars-weather"}>
-              <div className="bg-[url('/assets/moon.jpg')] shadow-indigo-950 shadow-xl bg-center bg-no-repeat hover:bg-opacity-80 rounded-lg p-3 border-zinc-600 border transition duration-300 flex flex-col items-center">
-                <Image
-                    width={250}
-                    height={100}
-                    src="/Pages/mars.png"
-                    alt="Mars Weather"
-                    className="w-full h-auto rounded-t-lg hover:scale-105 duration-300"
-                />
-                <span className="p-2 text-center uppercase font-bold title-text-multi">Mars Weather</span>
-              </div>
-            </Link>
+
             <Link href={"/sources/eyes-on-earth"}>
               <div className="bg-[url('/assets/moon.jpg')] shadow-indigo-950 shadow-xl bg-center bg-no-repeat hover:bg-opacity-80 rounded-lg p-3 border-zinc-600 border transition duration-300 flex flex-col items-center">
                 <Image
@@ -80,6 +69,18 @@ const Page = () => {
                     className="w-full h-auto rounded-t-lg hover:scale-105 duration-300"
                 />
                 <span className="p-2 text-center uppercase font-bold title-text-multi">Space News</span>
+              </div>
+            </Link>
+            <Link href={"/sources/mars-weather"}>
+              <div className="bg-[url('/assets/moon.jpg')] shadow-indigo-950 shadow-xl bg-center bg-no-repeat hover:bg-opacity-80 rounded-lg p-3 border-zinc-600 border transition duration-300 flex flex-col items-center">
+                <Image
+                    width={250}
+                    height={100}
+                    src="/Pages/mars.png"
+                    alt="Mars Weather"
+                    className="w-full h-auto rounded-t-lg hover:scale-105 duration-300"
+                />
+                <span className="p-2 text-center uppercase font-bold title-text-multi">Mars Weather</span>
               </div>
             </Link>
           </div>
