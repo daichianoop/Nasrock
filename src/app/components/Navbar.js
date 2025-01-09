@@ -23,7 +23,9 @@ const Navbar = () => {
       <div
           className={`flex justify-between items-center h-20 py-5 px-10 fixed top-0 left-0 right-0 z-50 ${scrolled ? ' backdrop-blur-lg' : 'bg-transparent'} transition-all duration-300`}>
         <div className="nav-left w-52">
-          <Image src={"/assets/logo.png"} alt={""} width={190} height={100}/>
+         <Link href={"/"}>
+           <Image src={"/assets/logo.png"} alt={""} width={190} height={100}/>
+         </Link>
         </div>
         <div className="nav-mid">
           <div className="nav-items hidden md:flex justify-between items-center gap-5 text-xl">
