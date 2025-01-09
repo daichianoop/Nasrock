@@ -4,61 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdc1c880-da68-48cf-8ce9-2f71abc2d75b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/api/DataFetch/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/article/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ArchiveSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/AstroPicOfTheDay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/EOE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/EOSDIS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/MarsWeather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/SpaceNews.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/styles/ModalLaunchButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/styles/SearchBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/styles/SmallLoader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/ContactForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/FAQs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/FeaturesSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/LoaderPyramid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/SmallLoader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/sparkles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/text-generate-effect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/contact/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/documentation/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/navigation/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/not-found.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/privacy-policy/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/sources/astronomical-picture-of-the-day/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/sources/eyes-nasa-system/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/sources/eyes-on-earth/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/sources/mars-weather/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/sources/search-from-archives/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/sources/space-news-daily/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/terms-of-service/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/DbConn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nasaspaceapp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+    <list default="true" id="bdc1c880-da68-48cf-8ce9-2f71abc2d75b" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/FeaturesSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/FeaturesSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Anoop &lt;140630377+daichianoop@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -160,11 +114,25 @@
       <workItem from="1736256350742" duration="21258000" />
       <workItem from="1736306100670" duration="25746000" />
       <workItem from="1736401538083" duration="2442000" />
-      <workItem from="1736404938281" duration="8434000" />
+      <workItem from="1736404938281" duration="9990000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1736417161416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736417161416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit from Create Next App" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

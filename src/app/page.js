@@ -35,8 +35,8 @@ export default function Home() {
 
   return (
       <>
-        <div className="section-1 text-white">
-          <div className="bg-black bg-opacity-20">
+        <div className="section-1 text-white ">
+          <div className="bg-black bg-opacity-20 lg:pt-0 pt-28">
             <div className="flex flex-col md:flex-row items-center px-4 md:px-28 gap-x-10 gap-y-10 h-screen">
               <div className="flex-1">
                 <div className="text-4xl text-center md:text-left">

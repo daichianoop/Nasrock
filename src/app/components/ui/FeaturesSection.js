@@ -10,8 +10,8 @@ const FeaturesSection = () => {
         <section className="p-4 lg:p-8 text-white">
           <div className="container mx-auto space-y-12">
             <div className={"text-4xl title-text-multi font-bold text-center"}>Features</div>
-            <div className=" flex-col flex gap-10">
-              <div className="flex overflow-hidden rounded-md shadow-sm">
+            <div className=" flex-col flex gap-16">
+              <div className="flex flex-wrap overflow-hidden rounded-md shadow-sm">
                 <Image src="/Pages/apod.png" alt="" height={320} width={500} className="aspect-video" />
                 <div className="flex flex-col justify-center flex-1 p-6">
                   <span className="text-xs uppercase text-gray-500">Powered by NASA Open APIs</span>
@@ -35,7 +35,7 @@ const FeaturesSection = () => {
                 </div>
               </div>
 
-              <div className="flex overflow-hidden rounded-md shadow-sm ">
+              <div className="flex flex-wrap-reverse overflow-hidden rounded-md shadow-sm ">
                 <div className="flex flex-col justify-center flex-1 p-6">
                   <span className="text-xs uppercase text-gray-500">Powered by NASA Open APIs</span>
                   <h3 className="text-3xl font-bold title-text-multi">Archive Search</h3>
@@ -59,7 +59,7 @@ const FeaturesSection = () => {
                 <Image src="/Pages/Archive.png" alt="" height={320} width={500} className="aspect-video" />
               </div>
 
-              <div className="flex overflow-hidden rounded-md shadow-sm">
+              <div className="flex flex-wrap overflow-hidden rounded-md shadow-sm">
                 <Image src="/Pages/eoe.png" alt="" height={320} width={500} className="aspect-video" />
                 <div className="flex flex-col justify-center flex-1 p-6">
                   <span className="text-xs uppercase text-gray-500">Powered by NASA EOE Vault</span>
@@ -83,7 +83,7 @@ const FeaturesSection = () => {
                 </div>
               </div>
 
-              <div className=" flex overflow-hidden rounded-md shadow-sm ">
+              <div className=" flex flex-wrap-reverse overflow-hidden rounded-md shadow-sm ">
                 <div className="flex flex-col justify-center flex-1 p-6">
                   <span className="text-xs uppercase text-gray-500">Powered by NASA Eyes</span>
                   <h3 className="text-3xl font-bold title-text-multi">NASA Eyes System</h3>
@@ -107,7 +107,7 @@ const FeaturesSection = () => {
                 <Image src="/Pages/SpaceView.png" alt="" height={320} width={500} className="aspect-video" />
               </div>
 
-              <div className="flex overflow-hidden rounded-md shadow-sm">
+              <div className="flex flex-wrap overflow-hidden rounded-md shadow-sm">
                 <Image src="/Pages/news.png" alt="" height={320} width={500} className="aspect-video" />
                 <div className="flex flex-col justify-center flex-1 p-6">
                   <span className="text-xs uppercase text-gray-500">Powered by Rapid API</span>
@@ -131,7 +131,7 @@ const FeaturesSection = () => {
                 </div>
               </div>
 
-              <div className="flex overflow-hidden rounded-md shadow-sm ">
+              <div className="flex flex-wrap-reverse overflow-hidden rounded-md shadow-sm ">
                 <div className="flex flex-col justify-center flex-1 p-6">
                   <span className="text-xs uppercase text-gray-500">Powered by NASA Open APIs</span>
                   <h3 className="text-3xl font-bold title-text-multi">Mars Weather</h3>
