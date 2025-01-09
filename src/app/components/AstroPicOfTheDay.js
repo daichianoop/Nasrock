@@ -57,7 +57,7 @@ const AstroPicOfTheDay = () => {
               onClick={handleImageClick}
           />
         </div>
-        <div className="flex-1 md:ml-6 mb-4">
+        <div className="flex-1 md:ml-6 my-6">
           <h2 className="text-3xl title-text-multi font-bold mb-2">{data.title}</h2>
           <div className="text-gray-300 mb-4">
             <TextGenerateEffect words={data.explanation} />
