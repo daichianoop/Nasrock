@@ -19,7 +19,7 @@ const Page = () => {
   return (
       <div className="text-white">
         <div className="w-5/6 mt-5 mx-auto text-center h-screen flex items-center justify-center">
-          <div className="bg-black py-10 px-5 md:px-20 bg-opacity-50 border border-neutral-700 shadow-xl shadow-neutral-800 rounded">
+          <div className="bg-black py-10 px-3 lg:px-10 md:px-20 bg-opacity-50 border border-neutral-700 shadow-xl shadow-neutral-800 rounded">
             <h1 className="text-2xl md:text-3xl font-bold mb-4 title-text-multi">Welcome to NASA EYES</h1>
             <p className="mb-6 text-sm md:text-base">
               NASA&#39;s Eyes is a vital initiative designed to provide an interactive platform for exploring Earth and other celestial bodies using real-time data from NASA&#39;s missions. Originally developed to support public engagement and education in space science, NASA&#39;s Eyes ensures accessible and immersive experiences for users interested in understanding our planet and the universe.

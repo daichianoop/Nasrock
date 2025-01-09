@@ -19,7 +19,7 @@ const Page = () => {
   return (
       <div className=" text-white">
         <div className="w-5/6 mx-auto text-center h-screen flex items-center justify-center">
-          <div className={"bg-black py-10 px-10 bg-opacity-50 border border-neutral-700 shadow-xl shadow-neutral-800 rounded"}>
+          <div className={"bg-black py-10 px-5 md:px-10 lg:px-10 bg-opacity-50 border border-neutral-700 shadow-xl shadow-neutral-800 rounded"}>
             <div className=" text-center">
               <h1 className="text-3xl font-bold mb-4 title-text-multi">Welcome to EOE</h1>
               <p className="mb-6">
