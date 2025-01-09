@@ -1,6 +1,4 @@
-Here's a Markdown-formatted README code for the Nasrock project:
 
-```markdown
 # Nasrock - NASA Open APIs Explorer
 
 ## Project Overview
