@@ -60,7 +60,7 @@ const SpaceNews = () => {
                 <img
                     src={article.image_url}
                     alt={article.title}
-                    className="w-full md:w-1/2 h-[80vh] object-cover cursor-pointer"
+                    className="cursor-pointer"
                     onClick={() => openModal(article.image_url)} // Open modal on image click
                 />
                 <div className="p-4 flex-1 md:w-1/2">
@@ -87,7 +87,7 @@ const SpaceNews = () => {
         {/* Modal for displaying the image in full size */}
         {isModalOpen && (
             <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
-              <img src={selectedImage} alt="Selected" className="max-w-full max-h-screen object-contain" />
+              <img src={selectedImage} alt="Selected" className="h-[500px] max-w-full object-contain" />
               <button
                   onClick={closeModal}
                   className="absolute top-4 right-4 text-red-700 text-4xl font-bold transition-transform duration-300 transform hover:scale-125"
