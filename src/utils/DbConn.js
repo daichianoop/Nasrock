@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const MONGODB_URL = "process.env.MONGODB_URL";
+const MONGODB_URL = "mongodb+srv://kuganoop2005:ArMJMDOH2kFjpDEU@clusterinit.uqqc9br.mongodb.net/?retryWrites=true&w=majority&appName=ClusterInit";
 
 if (!MONGODB_URL) {
   throw new Error(
