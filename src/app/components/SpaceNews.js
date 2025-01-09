@@ -56,14 +56,16 @@ const SpaceNews = () => {
         {error && <p className="text-red-500 text-center">{error}</p>}
         <div className="gap-6 mt-4 grid place-content-center">
           {news.map((article) => (
-              <div key={article.id} className="rounded-lg overflow-hidden shadow-md flex flex-col md:flex-row">
-                <img
-                    src={article.image_url}
-                    alt={article.title}
-                    className="cursor-pointer"
-                    onClick={() => openModal(article.image_url)} // Open modal on image click
-                />
-                <div className="p-4 flex-1 md:w-1/2">
+              <div key={article.id} className="rounded-lg  overflow-hidden shadow-md flex flex-col md:flex-row">
+                <div className={"w-1/2 flex items-center justify-center"}>
+                  <img
+                      src={article.image_url}
+                      alt={article.title}
+                      className="cursor-pointer"
+                      onClick={() => openModal(article.image_url)} // Open modal on image click
+                  />
+                </div>
+                <div className="p-4 flex-1 w-1/2">
                   <h3 className="text-xl font-semibold title-text-multi mb-2">{article.title}</h3>
                   <p className="text-gray-300 mb-4">{article.news_summary_short}</p>
                   <p className="text-sm text-gray-400 mb-4">Published on: {new Date(article.timestamp).toLocaleString()}</p>

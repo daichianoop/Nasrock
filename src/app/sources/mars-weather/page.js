@@ -5,7 +5,7 @@ import Link from "next/link";
 const Page = () => {
   return (
       <div className="">
-        <div className="flex items-center justify-center mt-28">
+        <div className="flex items-center justify-center pt-28">
           <MarsWeather />
         </div>
         <section className="text-white bg-[url('/assets/topobg.png')] bg-fixed bg-cover bg-no-repeat">
