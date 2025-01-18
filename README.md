@@ -2,7 +2,7 @@
 # Nasrock - NASA Open APIs Explorer
 
 ## Project Overview
-**Nasrock** is a Next.js application that empowers you to seamlessly explore and utilize NASA's Open APIs. It provides a user-friendly platform to discover a vast array of APIs encompassing space exploration, astronomy, and NASA projects, enriching your understanding of the cosmos.
+**Nasrock** is a Next.js application that empowers you to seamlessly explore and utilize NASA's Open APIs. It provides a user-friendly platform to discover a vast array of APIs encompassing space exploration, astronomy, and NASA projects, enriching your understanding of the universe.
 
 ## Features
 - **Responsive Design**: Optimized for a smooth experience across all devices (mobile, tablet, desktop).
