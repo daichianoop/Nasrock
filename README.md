@@ -22,9 +22,8 @@
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/nasrock.git
+git clone https://github.com/daichianoop/nasrock.git
 ```
-*Replace `yourusername` with your actual GitHub username.*
 
 ### Navigate to Project Directory
 ```bash
