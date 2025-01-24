@@ -13,7 +13,7 @@
 - **Next.js**: A robust and efficient framework for building server-side rendered React applications.
 - **React**: JavaScript library for creating interactive user interfaces.
 - **CSS**: Tailored for styling with an emphasis on responsive design principles.
-- **Axios**: Streamlines HTTP requests to NASA's APIs for efficient data retrieval.
+- **Axios**: Streamlines HTTP requests from and to NASA's APIs for efficient data retrieval.
 
 ## Installation
 
