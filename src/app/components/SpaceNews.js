@@ -50,55 +50,55 @@ const SpaceNews = () => {
   };
 
   return (
-      <div className="container mx-auto p-6 bg-opacity-80 border border-neutral-700 border-r-2 bg-neutral-950 rounded-lg shadow-lg text-white">
-        <h1 className="text-3xl font-bold text-center mb-4 animate-pulse">Today&#39;s Space News</h1>
-        {loading && <p className="text-center">Loading...</p>}
-        {error && <p className="text-red-500 text-center">{error}</p>}
-        <div className="gap-6 mt-4 grid place-content-center">
-          {news.map((article) => (
-              <div key={article.id} className="rounded-lg  overflow-hidden shadow-md flex flex-col md:flex-row">
-                <div className={"w-1/2 flex items-center justify-center"}>
-                  <img
-                      src={article.image_url}
-                      alt={article.title}
-                      className="cursor-pointer"
-                      onClick={() => openModal(article.image_url)} // Open modal on image click
-                  />
-                </div>
-                <div className="p-4 flex-1 w-1/2">
-                  <h3 className="text-xl font-semibold title-text-multi mb-2">{article.title}</h3>
-                  <p className="text-gray-300 mb-4">{article.news_summary_short}</p>
-                  <p className="text-sm text-gray-400 mb-4">Published on: {new Date(article.timestamp).toLocaleString()}</p>
-                  <Link href={article.site_url} target="_blank" rel="noopener noreferrer">
-                    <button className="btn" type="button">
-                      <span className={"span1"}>Read More</span>
-                      <div id="container-stars">
-                        <div id="stars"></div>
-                      </div>
-                      <div id="glow">
-                        <div className="circle"></div>
-                        <div className="circle"></div>
-                      </div>
-                    </button>
-                  </Link>
-                </div>
-              </div>
-          ))}
-        </div>
-
-        {/* Modal for displaying the image in full size */}
-        {isModalOpen && (
-            <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
-              <img src={selectedImage} alt="Selected" className="h-[500px] max-w-full object-contain" />
-              <button
-                  onClick={closeModal}
-                  className="absolute top-4 right-4 text-red-700 text-4xl font-bold transition-transform duration-300 transform hover:scale-125"
-              >
-                &times;
-              </button>
+    <div className="container mx-auto p-6 bg-opacity-80 border border-neutral-700 border-r-2 bg-neutral-950 rounded-lg shadow-lg text-white">
+      <h1 className="text-3xl font-bold text-center mb-4 animate-pulse">Today&#39;s Space News</h1>
+      {loading && <p className="text-center">Loading...</p>}
+      {error && <p className="text-red-500 text-center">{error}</p>}
+      <div className="gap-6 mt-4 flex flex-wrap justify-center">
+        {news.map((article) => (
+          <div key={article.id} className="rounded-lg overflow-hidden shadow-md flex flex-col md:flex-row w-full md:w-3/4 lg:w-2/3">
+            <div className="w-full md:w-1/2 flex items-center justify-center">
+              <img
+                src={article.image_url}
+                alt={article.title}
+                className="w-full h-auto cursor-pointer object-cover"
+                onClick={() => openModal(article.image_url)} // Open modal on image click
+              />
             </div>
-        )}
+            <div className="p-4 flex-1 w-full md:w-1/2">
+              <h3 className="text-xl font-semibold title-text-multi mb-2">{article.title}</h3>
+              <p className="text-gray-300 mb-4">{article.news_summary_short}</p>
+              <p className="text-sm text-gray-400 mb-4">Published on: {new Date(article.timestamp).toLocaleString()}</p>
+              <Link href={article.site_url} target="_blank" rel="noopener noreferrer">
+                <button className="btn" type="button">
+                  <span className="span1">Read More</span>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                  </div>
+                </button>
+              </Link>
+            </div>
+          </div>
+        ))}
       </div>
+
+      {/* Modal for displaying the image in full size */}
+      {isModalOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
+          <img src={selectedImage} alt="Selected" className="h-[500px] max-w-full object-contain" />
+          <button
+            onClick={closeModal}
+            className="absolute top-4 right-4 text-red-700 text-4xl font-bold transition-transform duration-300 transform hover:scale-125"
+          >
+            &times;
+          </button>
+        </div>
+      )}
+    </div>
   );
 };
 
